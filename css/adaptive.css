@@ -1,0 +1,52 @@
+/*==========  Desktop First  ========== */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .collection-item{
+    flex: 0 0 100%;
+  }
+  .collection{
+    flex-wrap: wrap;
+  }
+  .product {
+    flex-wrap: wrap;
+  }
+  .product-item {
+    flex: 0 0 49%;
+    margin-bottom: 20px;
+  }
+  .main {
+    flex-wrap: wrap;
+  }
+  .main-item {
+    flex: 0 0 100%;
+  }
+  .main-item-sale{
+    text-align: center;
+  }
+  .box {
+    max-width: 600px;
+    margin: 50px 0 auto;
+  }
+  .sale{
+    text-align: center;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .toggle-menu {
+    display: none;
+  }
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /* */
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /* */
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /* */
+}
